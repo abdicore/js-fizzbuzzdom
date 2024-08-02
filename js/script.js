@@ -31,7 +31,21 @@ Non complichiamoci la vita con soluzioni complesse: la strada semplice è quasi 
 */
 
 
-// 1 creare programma
+// 1 creare programma per generare nemeri fino a 100
 
 for (let i = 1; i <=100; i++)
     console.log (i)
+
+// 2 selezionare i numeri divisibili per 3 e 5
+
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log(i + ' FizzBuzz');
+        } else if (i % 3 === 0) {
+            console.log(i + ' Fizz');
+        } else if (i % 5 === 0) {
+            console.log(i + ' Buzz');
+        } else {
+            console.log(i);
+        }
+    }
