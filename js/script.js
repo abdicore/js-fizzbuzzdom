@@ -36,7 +36,7 @@ Non complichiamoci la vita con soluzioni complesse: la strada semplice è quasi 
 for (let i = 1; i <=100; i++)
     console.log (i)
 
-// 2 selezionare i numeri divisibili per 3 e 5
+// 2 Stampare i numeri divisibili per 3 e 5 poi per 3 poi per 5 e tutti gli altri
 
     for (let i = 1; i <= 100; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
